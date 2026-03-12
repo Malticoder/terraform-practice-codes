@@ -4,3 +4,8 @@ terraform refresh command will check the latest state of your infrastructure and
  cidr_ipv4   = "${aws_eip.lb.public_ip}/32" for using cross-reference attribute 
  output values make information about your infrastructure available on command line output "public-ip" {
   value = "https://${aws_eip.lb.public_ip}:8080"}
+  terraform input variables are used to pass certain values from outside of configuration.
+  set env variables in terraform : export TF_VAR_instance_type=m5.large
+   echo $TF_VAR_instance_type
+  
+  
