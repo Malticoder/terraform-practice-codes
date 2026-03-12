@@ -7,5 +7,6 @@ terraform refresh command will check the latest state of your infrastructure and
   terraform input variables are used to pass certain values from outside of configuration.
   set env variables in terraform : export TF_VAR_instance_type=m5.large
    echo $TF_VAR_instance_type
+   if i want this instance type value so command is - terraform plan -var="instance_type=m5.large"
   
   
