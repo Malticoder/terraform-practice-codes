@@ -9,6 +9,12 @@ terraform refresh command will check the latest state of your infrastructure and
    echo $TF_VAR_instance_type
    if i want this instance type value so command is - terraform plan -var="instance_type=m5.large"
    Data type refers to the type of value .
+   Data Sources allow terraform to use and fetch informantion defined outside the terraform.
+   terraform fmt command format terraform configuration files content so that it matches the canoical format and style.
+   Recreating the resource : terraform apply -replace="aws_instance.myec2"
+   Terraform graph refers to the visual representation of the dependency relationship b/w resources that you are defined in terrform configuartion.
+   for_each is used to create and manage multiple instance of resource, based on the items in a map or set of strings.
+   
    
    
   
