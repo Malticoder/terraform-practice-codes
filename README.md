@@ -9,9 +9,7 @@ terraform refresh command will check the latest state of your infrastructure and
    echo $TF_VAR_instance_type
    if i want this instance type value so command is - terraform plan -var="instance_type=m5.large"
    Data type refers to the type of value .
-   resource "aws_iam_user" "this" {
-   name = "payments-user-${count.index}"
-   count = 3}
+   
    
   
   
