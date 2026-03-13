@@ -11,8 +11,7 @@ terraform refresh command will check the latest state of your infrastructure and
    Data type refers to the type of value .
    resource "aws_iam_user" "this" {
    name = "payments-user-${count.index}"
-   count = 3
-}
+   count = 3}
    
   
   
