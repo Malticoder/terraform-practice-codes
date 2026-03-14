@@ -15,8 +15,8 @@ terraform refresh command will check the latest state of your infrastructure and
    Terraform graph refers to the visual representation of the dependency relationship b/w resources that you are defined in terrform configuartion.
    for_each is used to create and manage multiple instance of resource, based on the items in a map or set of strings.
    # provisioner are used to execute scripts on a local or remote machine as a part of resource creation or destruction.
-   local exec executes command locally on machine 
-   remote exec command invoke scripts or directly run on remote server.
+   local exec executes command locally on machine on_failure = continue , when = destroy
+   remote exec command invoke scripts or directly run on remote server
     Connects to the newly created resource via SSH or WinRM to run scripts
    
    
