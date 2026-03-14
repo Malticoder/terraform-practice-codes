@@ -18,6 +18,7 @@ terraform refresh command will check the latest state of your infrastructure and
    local exec executes command locally on machine on_failure = continue , when = destroy
    remote exec command invoke scripts or directly run on remote server
     Connects to the newly created resource via SSH or WinRM to run scripts
+   Terraform workspace enables us to manage multiple set of deployments from the same set of configuration files.
    
    
    
