@@ -1,5 +1,5 @@
 resource "aws_instance" "myec2" {
-   ami = "ami-08a0d1e16fc3f61ea"
+   ami = "ami-0b6c6ebed2801a5cb"
    instance_type = "t2.micro"
 }
 
@@ -12,6 +12,6 @@ locals {
 }
 
 resource "aws_instance" "myec2" {
-  ami           = "ami-08a0d1e16fc3f61ea"
+  ami           = "ami-0b6c6ebed2801a5cb"
   instance_type = local.instance_type[terraform.workspace]
 }
