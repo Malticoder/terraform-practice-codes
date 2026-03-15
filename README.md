@@ -25,6 +25,8 @@ terraform workspace new dev
 terraform workspace new prod
 terraform workspace list
 terraform workspace select dev
+# state locking is a mechanism that prevents multiple operations from making concurrent changes to your infrastructure state file , which could lead to corruption or inconsistent state.
+
    
    
   
