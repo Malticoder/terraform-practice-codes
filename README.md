@@ -34,6 +34,11 @@ push - manually upload a local state file to remote state file.
 rm - remove items from terraform state.
 show - show attributes of single resource in the state.  terraform state show aws_security_group.prod
 # terraform import can automatically create terraform configuration files for the resources that you want to import.
+import {
+  to = aws_security_group.mysg
+  id = "sg-07f13feb262ba8b6f"} terraform plan -generate-config-out=mysg.tf
+  
+
 
 
    
