@@ -26,6 +26,14 @@ terraform workspace new prod
 terraform workspace list
 terraform workspace select dev
 # state locking is a mechanism that prevents multiple operations from making concurrent changes to your infrastructure state file , which could lead to corruption or inconsistent state.
+# Commands of terraform 
+list - list resources within terraform statefile.
+mv - move items with terraform state.
+pull - manually download and output the state from remote state.
+push - manually upload a local state file to remote state file.
+rm - remove items from terraform state.
+show - show attributes of single resource in the state.
+
 
    
    
