@@ -29,7 +29,7 @@ terraform workspace select dev
 # Commands of terraform 
 list - list resources within terraform statefile.
 mv - move items with terraform state.
-pull - manually download and output the state from remote state.
+pull - manually download and output the state from remote state. remote to local state file 
 push - manually upload a local state file to remote state file.
 rm - remove items from terraform state.
 show - show attributes of single resource in the state.  terraform state show aws_security_group.prod
